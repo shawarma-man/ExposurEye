@@ -23,7 +23,7 @@
 <h3 align="center">ExposurEye</h3>
 
   <p align="center">
-    ExposurEye is a simple tool designed to help users identify security vulnerabilities in their system. The tool works by analyzing software components and comparing them to a database of known Common Vulnerabilities and Exposures (CVEs). The scanner uses the National vulnerability database Feeds to parse and store information about CVEs and to generate cpe strings for installed applications on the system,
+    ExposurEye is a simple tool designed to help users identify security vulnerabilities in their windows system. The tool works by analyzing software components and comparing them to a database of known Common Vulnerabilities and Exposures (CVEs). The scanner uses the National vulnerability database Feeds to parse and store information about CVEs and to generate cpe strings for installed applications on the system,
     it stores this information in a lightweight sqlite database and then it searches for CVEs for the installed applications, the script also uses [Wazuh](https://wazuh.com) microsoft update feed to find CVEs affecting windows.
     <br />
     <a href="https://github.com/shawarma-man/ExposurEye"><strong>Explore the docs »</strong></a>
