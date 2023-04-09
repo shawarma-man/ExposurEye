@@ -1,23 +1,9 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
 
 
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
+
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -31,22 +17,21 @@
 <br />
 <div align="center">
   <a href="https://github.com/github_username/repo_name">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="images/profile.jpg" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">project_title</h3>
+<h3 align="center">ExposurEye</h3>
 
   <p align="center">
-    project_description
+    ExposurEye is a simple tool designed to help users identify security vulnerabilities in their system. The tool works by analyzing software components and comparing them to a database of known Common Vulnerabilities and Exposures (CVEs). The scanner uses the National vulnerability database Feeds to parse and store information about CVEs and to generate cpe strings for installed applications on the system,
+    it stores this information in a lightweight sqlite database and then it searches for CVEs for the installed applications, the script also uses [Wazuh](https://wazuh.com) microsoft update feed to find CVEs affecting windows.
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/shawarma-man/ExposurEye"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/github_username/repo_name">View Demo</a>
+    <a href="https://github.com/shawarma-man/ExposurEye/issues">Report Bug</a>
     ·
-    <a href="https://github.com/github_username/repo_name/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/github_username/repo_name/issues">Request Feature</a>
+    <a href="https://github.com/shawarma-man/ExposurEye/issues">Request Feature</a>
   </p>
 </div>
 
@@ -70,8 +55,6 @@
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
     <li><a href="#acknowledgments">Acknowledgments</a></li>
@@ -95,6 +78,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 
 * [![Python][python]][Python-url]
 * [![Powershell][powershell]][powershell-url]
+* [![Sqlite][sqlite]][sqlite-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -103,16 +87,7 @@ Here's a blank template to get started: To avoid retyping too much info. Do a se
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Prerequisites
-
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+To Use ExposurEye Follow the simple steps explained in the *Installation* Part
 
 ### Installation
 
@@ -185,8 +160,10 @@ Project Link: [https://github.com/shawarma-man/ExposurEye](https://github.com/sh
 [license-url]: https://github.com/shawarma-man/ExposurEye/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ahmed-jalamneh
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: images/banner.png
 [python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://www.python.org
 [powershell]: https://img.shields.io/badge/Powershell-2CA5E0?style=for-the-badge&logo=powershell&logoColor=white
 [powershell-url]: https://learn.microsoft.com/en-us/powershell/
+[sqlite]: https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white
+[sqlite-url]: https://sqlite.org
