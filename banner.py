@@ -43,6 +43,3 @@ def gradient_text(text, colors):
             color_range -= 1
 
     return ''.join(gradient_chars)
-
-
-display_banner()
