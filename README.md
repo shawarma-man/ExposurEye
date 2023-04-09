@@ -65,6 +65,7 @@
 ## About The Project
 
 [![Product Name Screen Shot][product-screenshot]](https://github.com/shawarma-man)
+[![Product Name Screen Shot][product-screenshot2]](https://github.com/shawarma-man)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,6 +153,7 @@ Project Link: [https://github.com/shawarma-man/ExposurEye](https://github.com/sh
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ahmed-jalamneh
 [product-screenshot]: images/banner.PNG
+[product-screenshot2]: images/CVEs.PNG
 [python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://www.python.org
 [powershell]: https://img.shields.io/badge/Powershell-2CA5E0?style=for-the-badge&logo=powershell&logoColor=white

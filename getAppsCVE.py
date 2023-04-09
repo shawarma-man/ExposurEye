@@ -31,7 +31,7 @@ def getAppsCPE():
             print(custom_prompt('warning', f"No appropriate matches for: {app.get('ProgramName')}\n"))
         elif score < 0.9 and score >= 0.6:
             print(custom_prompt('warning', f"Found possible match for: {app.get('ProgramName')}\n"))
-            choice = input(custom_prompt('warning', f"Would you like to use {cpe_str}? (y/n) Default: y")).lower()
+            choice = input(custom_prompt('warning', f"Would you like to use {cpe_str}? (y/n) Default: y\n")).lower()
             if choice not in ['n', 'no']:
                 app["cpe"] = cpe_str
             else:
