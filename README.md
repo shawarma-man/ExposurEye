@@ -152,7 +152,7 @@ Project Link: [https://github.com/shawarma-man/ExposurEye](https://github.com/sh
 [license-url]: https://github.com/shawarma-man/ExposurEye/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ahmed-jalamneh
-[product-screenshot]: images/banner.PNG
+[product-screenshot]: images/usage.PNG
 [product-screenshot2]: images/CVEs.PNG
 [python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://www.python.org
