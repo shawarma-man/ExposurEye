@@ -93,7 +93,7 @@ To Use ExposurEye Follow the simple steps explained in the *Installation* Part
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/shawarma-man/ExposurEye.git
    ```
 2. Install requirements.txt
    ```sh
