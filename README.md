@@ -16,8 +16,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/github_username/repo_name">
-    <img src="images/profile.jpg" alt="Logo" width="80" height="80">
+  <a href="https://github.com/shawarma-man/ExposurEye">
+    <img src="images/profile.jpg" alt="Logo" width="150" height="100">
   </a>
 
 <h3 align="center">ExposurEye</h3>
@@ -160,7 +160,7 @@ Project Link: [https://github.com/shawarma-man/ExposurEye](https://github.com/sh
 [license-url]: https://github.com/shawarma-man/ExposurEye/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/ahmed-jalamneh
-[product-screenshot]: images/banner.png
+[product-screenshot]: images/banner.PNG
 [python]: https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
 [Python-url]: https://www.python.org
 [powershell]: https://img.shields.io/badge/Powershell-2CA5E0?style=for-the-badge&logo=powershell&logoColor=white
