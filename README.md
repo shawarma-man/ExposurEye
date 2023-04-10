@@ -97,7 +97,7 @@ To Use ExposurEye Follow the simple steps explained in the *Installation* Part
    ```
 2. Install requirements.txt
    ```sh
-   pip -r requirements.txt
+   pip install -r requirements.txt
    ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
