@@ -242,7 +242,7 @@ def create_msu_db():
             except json.JSONDecodeError:
                 raise ValueError(custom_prompt('error','Failed to decompress CVE feed for year {}.'.format(year)))
             
-            for cve in tqdm(cve_feed['CVE_Items'], desc='Checking vulnerabilities'):
+            for cve in tqdm(cve_feed['CVE_Items'], desc='Parsing CVEs information'):
                 cve_id = cve['cve']['CVE_data_meta']['ID']
                 cwe_id = cve['cve']['problemtype']['problemtype_data'][0]['description'][0]['value'] if ('problemtype' in cve['cve'] and len(cve['cve']['problemtype']['problemtype_data'][0]['description']) > 0) else ''
                 assigner = cve['cve']['CVE_data_meta']['ASSIGNER'] if 'ASSIGNER' in cve['cve']['CVE_data_meta'] else ''
