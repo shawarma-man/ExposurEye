@@ -5,3 +5,5 @@ __pycache__/
 *.pyd
 misc/
 tmpCode/
+images/
+shawarma.db
